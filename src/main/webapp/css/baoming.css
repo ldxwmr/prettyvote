@@ -1,0 +1,76 @@
+body
+{
+	margin:10px;
+}
+
+#addfile
+{
+	width:25%;	
+	position:relative;
+	display: inline-block;
+}
+
+#addfile>img
+{
+	width:100%;	
+}
+
+#addfile>input
+{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+}
+
+.addedphoto
+{
+	width:25%;
+}
+
+#baoming
+{
+	margin-bottom: 100px;
+}
+
+#baoming p
+{
+	text-align: left;
+}
+
+.form-div
+{
+	margin:10px 0px;
+	display: flex;
+	align-items: center;
+}
+
+.form-control
+{
+	flex: 1;
+	border:none;
+	outline: none;
+}
+
+input[type="text"]
+{
+	height: 25px;
+}
+
+textarea
+{
+	resize: none;
+	height:50px;
+	
+}
+
+button{
+	width:100%;
+	height:40px;
+	border:none;
+	background: green;
+	color:white;
+	font-weight: bold;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery-3.2.0.min.js" ></script>
+<script type="text/javascript" src="js/common.js" ></script>
+<script type="text/javascript" src="js/baoming.js" ></script>
+<link rel="stylesheet" href="css/font-awesome.css" />
+<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="css/baoming.css" />
+</head>
+<body>
+	
+	<div id="baoming">
+		<form id="myform" method="post" enctype="multipart/form-data">
+		    <input id="aid" type="hidden" name="aid" value=""/>
+			<div>
+				<p>上传1-5张图片，第一张为封面</p>
+				<div id="photos">
+					<div id="addfile">
+						<img src="img/addfile.jpg"/>
+						<input id="photo" type="file" accept="image/*" />
+					</div>			
+				</div>
+			</div>
+			<div class="form-div">
+				本人姓名：<input class="form-control" type="text" name="cname" />
+			</div>
+			<div class="form-div">
+				参赛宣言:<textarea class="form-control" name="cdeclaration"></textarea>
+			</div>
+			<div class="form-div">
+				手机:<input class="form-control" type="text" name="mobile" />
+			</div>
+			<div class="form-div">
+				性别：<input type="radio" name="sex" value="女" checked /> 女
+				     <input type="radio" name="sex" value="男" /> 男
+			</div>
+			<div class="form-div">
+				收获地址：<textarea class="form-control" name="address"></textarea> 
+			</div>
+			<div class="form-div">
+				请如实提交报名信息，提交信息为唯一获奖凭证
+			</div>
+			<button id="btn_baoming" type="button">提交报名</button>
+		</form>
+		
+	</div>
+	<div id="div4">
+			<div id="div4flex">
+				<div id="menu_home">
+				<p><i class="fa fa-home" aria-hidden="true"></i></p>
+				<p>首页</p>
+				</div>
+				<div id="menu_baoming">
+					<p><i class="fa fa-user-plus" aria-hidden="true"></i></p>
+					<p>报名</p>
+				</div>
+				<div id="menu_prize">
+					<p><i class="fa fa-gift" aria-hidden="true"></i></p>
+					<p>奖品</p>
+				</div>
+				<div id="menu_rank">
+					<p><i class="fa fa-trophy" aria-hidden="true"></i></p>
+					<p>排行</p>
+				</div>	
+			</div>
+				
+		</div>
+	
+
+</body>
+</html>

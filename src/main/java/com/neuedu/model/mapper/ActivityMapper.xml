@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neuedu.model.mapper.ActivityMapper" >  
+
+    <select id="getActivityById" parameterType="int" resultType="Activity">
+	       select *
+			from activity
+			where aid = #{aid}
+    </select>
+    
+    <update id="updateActivityAccess" parameterType="int">
+           update activity 
+           set totalaccess = totalaccess +1
+           where aid = #{aid}
+    </update>
+    
+    <update id="updateActivityPeople" parameterType="int">
+           update activity 
+           set totalpeople = totalpeople +1
+           where aid = #{aid}
+    </update>
+    
+    <update id="updateActivityTickets" parameterType="int">
+           update activity 
+           set totaltickets = totaltickets +1
+           where aid = #{aid}
+    </update>
+    
+</mapper>

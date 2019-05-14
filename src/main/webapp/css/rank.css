@@ -1,0 +1,54 @@
+#div1
+{
+	margin-bottom:100px;
+}
+
+#div1 p
+{
+	margin:8px 10px;
+	text-align: left;
+}
+
+.c
+{
+	height:100px;
+	display: flex;
+}
+
+.odd
+{
+	background: #EEEEEE;
+}
+
+.c_1
+{
+	width:120px;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.c_1>img
+{
+	width:80px;
+	height:80px;
+	border-radius: 50%;
+	
+}
+
+.c_2
+{
+	flex: 1;
+}
+
+.c_3
+{
+	width:50px;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
